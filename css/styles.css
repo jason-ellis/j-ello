@@ -1,0 +1,117 @@
+/* Example 21-13: styles.css */
+
+* {
+    font-family: verdana,sans-serif;
+    font-size: 14pt;
+}
+
+body {
+	width: 90%;
+    min-width: 480px;
+	max-width :700px;
+    margin: 7px auto;
+    background: #f8f8f8;
+    border: 1px solid #888;
+}
+
+html {
+    background: #fff
+}
+
+img {
+    border: 1px solid black;
+    margin-right: 15px;
+	 -moz-box-shadow: 2px 2px 2px #888;
+	 -webkit-box-shadow: 2px 2px 2px #888;
+	 box-shadow: 2px 2px 2px #888;
+}
+
+.menu li a,
+.button {
+    text-decoration: none;
+    color: #444;
+}
+
+li a {
+    text-decoration: none;
+}
+ 
+.appname {
+    text-align: center;
+    background: #444;
+    color: #ddd;
+    font-family: helvetica;
+    font-size: 20pt;
+    padding: 4px;
+}
+
+.fieldname {
+    float: left;
+    width: 120px;
+}
+
+.menu {
+    display: inline-block;
+    margin: 10px auto;
+}
+	 
+.main {
+    margin-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.info {
+    background: lightgreen;
+    color: blue;
+	 border: 1px solid green;
+	 padding: 5px 10px;
+    margin-left: 40px;
+}
+
+.menu li,
+.button {
+    display: inline;
+    float: left;
+/*    padding: 4px 6px;
+    border: 1px solid #777; */
+    background: #ddd;
+	 color: #444;
+    margin-right: 8px;
+	 border-radius: 5px;
+/*	 -moz-box-shadow: 2px 2px 2px #888;
+	 -webkit-box-shadow: 2px 2px 2px #888;
+	 box-shadow: 2px 2px 2px #888; */
+}
+
+.menu li a,
+.button {
+    display:block;
+    padding: 4px 6px;
+}
+
+.menu li:hover {
+    background: lightseagreen;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+.subhead {
+    font-weight: bold;
+}
+
+.taken,
+.error {
+    color: red;
+}
+
+.available {
+    color: green;
+}
+
+.whisper {
+    font-style: italic;
+    color: #006600;
+}
